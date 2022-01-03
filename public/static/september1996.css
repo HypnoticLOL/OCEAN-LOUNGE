@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: powderblue;
+}
+
+a::before, a::after, a {
+  color: red;
+}
+
+nav {
+  border: 1px solid white;
+  background-color: lightskyblue;
+}
+
+textarea {
+  resize: none;
+}
+
+#body {
+  width: 600px;
+  margin: auto;
+  height: 100vh;
+  text-align: center;
+  background-color: #5cd2f6
+}
+
+#logo, #directory, #btn-options {
+  text-align: left;
+}
+
+#logo {
+  font-size: 20px;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#ol-logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+#guestbook-file {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#aboutish {
+  font-size: 16px;
+}
+
+#alt-options {
+  text-align: left;
+}
+
+.book-heading {
+  font-size: 18px;
+}
+
+.msg {
+  width: 350px;
+}
+
+.join {
+  border-style: inset;
+  border: 1px solid black;
+  background-color: yellowgreen;
+}
+
+.error {
+  color: red;
+}
+
+.add-scroll {
+  overflow-y: auto;
+}
